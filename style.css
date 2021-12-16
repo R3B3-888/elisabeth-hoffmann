@@ -1,7 +1,7 @@
 :root {
-  --base-color: #a7ac38;
-  --sec-color: #c4a53e;
-  --btn-color: #563434;
+  --base-color: #ECD8E0;
+  --sec-color: #BAD8E0;
+  --btn-color: #FFD5B6;
 }
 
 * {
@@ -123,7 +123,7 @@ small {
   font-size: 14px;
 }
 .col-4:hover {
-  transform: translateY(-20px);
+  transform: translateY(-10px);
 }
 
 .col-5 {
@@ -321,4 +321,37 @@ footer hr {
   .col-4 {
     flex-basis: 100%;
   }
+}
+
+/* Products Page */
+.row-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+select {
+  border: 1px solid var(--sec-color);
+  padding: 5px;
+  background: white;
+}
+select:focus {
+  outline: none;
+  background: var(--sec-color);
+  color: white;
+}
+.page-btn {
+  margin: 0 auto 80px;
+}
+.page-btn span {
+  display: inline-block;
+  border: 1px solid var(--sec-color);
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.page-btn span:hover {
+  background: var(--sec-color);
+  color: white;
 }
