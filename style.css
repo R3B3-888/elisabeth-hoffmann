@@ -1,7 +1,7 @@
 :root {
-  --base-color: #ECD8E0;
-  --sec-color: #BAD8E0;
-  --btn-color: #FFD5B6;
+  --base-color: #D2E4FD;
+  --sec-color: #F8D3CF;
+  --btn-color: #FFF1CB;
 }
 
 * {
@@ -84,7 +84,6 @@ small {
 .col-2 img {
   max-width: 100%;
   padding: 50px 0;
-  border-radius: 10%;
 }
 .col-2 h1 {
   font-size: 50px;
