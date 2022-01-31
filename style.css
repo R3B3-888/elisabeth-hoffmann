@@ -149,6 +149,7 @@ small {
 }
 .btn:hover {
   background: var(--btn-color);
+  color: gray;
 }
 
 .title {
