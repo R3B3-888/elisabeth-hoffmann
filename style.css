@@ -345,7 +345,7 @@ select:focus {
   display: inline-block;
   border: 1px solid var(--sec-color);
   margin-left: 10px;
-  width: 40px;
+  width: 140px;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -354,6 +354,9 @@ select:focus {
 .page-btn span:hover {
   background: var(--sec-color);
   color: white;
+}
+.page-btn span a {
+  text-decoration: none;
 }
 
 /* single product details */
