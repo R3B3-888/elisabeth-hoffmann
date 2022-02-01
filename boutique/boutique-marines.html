@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initla-scale=1.0" />
+  <title>Marines - EH</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../images/boutiqueelisabethhoffmann-logo.jpg" width="125px" />
+        </a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="boutique.html">BOUTIQUE</a></li>
+          <li><a href="">L'ARTISTE</a></li>
+          <li><a href="">EXPOSITIONS</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </nav>
+      <img src="../images/cart.png" width="30px" height="30px" />
+      <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()" />
+    </div>
+  </div>
+
+  <div class="small-container">
+    <div class="row row-2">
+      <h2>Marines</h2>
+      <select>
+        <option>Default Shorting</option>
+        <option>Short by price</option>
+        <option>Short by popularity</option>
+        <option>Default Shorting</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <img src="../images/paintings/marines/12919.jpg" />
+        <h4>Bateau : 200 x 150 cm</h4>
+        <p>5000€</p>
+      </div>
+      <div class="col-3">
+        <img src="../images/paintings/marines/12894.jpg" />
+        <h4>Trois bateaux : 200 x 150 cm</h4>
+        <p>5000€</p>
+      </div>
+      <div class="col-3">
+        <img src="../images/paintings/marines/141305.jpg" />
+        <h4>Bateau : 200 x 150 cm</h4>
+        <p>5000€</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="../images/paintings/marines/893.jpg" />
+        <h4>Cabane : 200 x 150 cm</h4>
+        <p>5000€</p>
+      </div>
+      <div class="col-4">
+        <img src="../images/paintings/marines/663.jpg" />
+        <h4>Deux cabanes : 200 x 150 cm</h4>
+        <p>500€</p>
+      </div>
+      <div class="col-4">
+        <img src="../images/paintings/marines/11777.jpg" />
+        <h4>Bateau pirate : 200 x 150 cm</h4>
+        <p>500€</p>
+      </div>
+      <div class="col-4">
+        <img src="../images/paintings/marines/11767.jpg" />
+        <h4>Gondole : 200 x 150 cm</h4>
+        <p>500€</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <img src="../images/paintings/marines/cabane-pecheur.jpeg" />
+        <h4>Cabane : 200 x 150 cm</h4>
+        <p>5000€</p>
+      </div>
+      <div class="col-3">
+        <img src="../images/paintings/marines/12912.jpg" />
+        <h4>Reflets : 200 x 150 cm</h4>
+        <p>5000€</p>
+      </div>
+    </div>
+
+    <div class="page-btn">
+      <span>
+        <a href="boutique-vignes.html">Vignes</a>
+      </span>
+      <span>
+        <a href="boutique-portraits.html">Portraits</a>
+      </span>
+      <span>
+        <a href="boutique-pontdepierre.html">Pont de Pierre</a>
+      </span>
+      <span>
+        <a href="boutique-scenesurbaines.html">Scènes urbaines</a>
+      </span>
+      <span>
+        <a href="boutique-paysages.html">Paysages</a>
+      </span>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download our app</h3>
+          <p>Download App for android and ios mobile phone.</p>
+          <div class="app-logo">
+            <img src="../images/play-store.png" />
+            <img src="../images/app-store.png" />
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="../images/drouot_logo.jpg" />
+          <p>Reproductions Interdites. Droits bidule chouette</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a href="https://fr-fr.facebook.com/ehoffmannwatercolor">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/elisabeth_hoffmann_artist/">Instagram</a>
+            </li>
+            <li>Twitter</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright 2021 - Alexis Hoffmann</p>
+    </div>
+  </footer>
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle() {
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      } else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+</body>
+
+</html>
