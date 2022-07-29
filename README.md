@@ -1,4 +1,4 @@
-# elisabeth-hoffmann.fr
+# elisabeth-hoffmann
 
 ## Mise en ligne d'un produit
 
